@@ -34,6 +34,10 @@ with open('PRSA.csv', newline='') as csvfile:
                     a = int(row['No'])-1
                     FinTrou.append(a)
                     trou = False
+    f = open('DonnéePRSA.csv', 'w')
+    entetes = ["Trou", "Debut", "Fin", "ValManq", "Incré"]
+    ligneEntete = ",".join(entetes) + "\n"
+    f.write(ligneEntete)
     print(" Trou  | Debut | Fin | ValM | Incrément")
     for i in range(len(valI)) :
         if (i < 9):
@@ -42,6 +46,10 @@ with open('PRSA.csv', newline='') as csvfile:
             print(" ", i + 1, "  |", DebTrou[i], " |", FinTrou[i], " |", NbValManquante[i], " |", valI[i])
         else :
             print(" ", i + 1, "|", DebTrou[i], " |", FinTrou[i], " |", NbValManquante[i], " |", valI[i])
+        ligne = str(i+1) +"," + str(DebTrou[i]) +"," + str(FinTrou[i]) +"," + str(NbValManquante[i]) +"," +str(valI[i]) + "\n"
+        f.write(ligne)
+    f.close()
+    print("Retrouvez ces données dans le fichier : DonnéePRSa.csv")
     for inc in range(len(valI)) :
         if (NbValManquante[inc]>15):
             testeur = 0
@@ -57,7 +65,6 @@ with open('PRSA.csv', newline='') as csvfile:
     with open('tp2_1.csv', newline='') as tpfile:
         tpReader = csv.DictReader(tpfile)
         for row in tpReader:
-            print(nbNA)
             if (row['pm2.5'] == 'NA'):
                 nbNA += 1
 
