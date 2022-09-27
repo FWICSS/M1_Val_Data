@@ -59,10 +59,10 @@ with open('PRSA.csv', newline='') as csvfile:
             for j in range(NbValManquante[inc]):
                 #print(valI[inc]*j+1)
                 df.loc[df["No"] == DebTrou[inc] + j, "pm2.5"] = valI[inc]*j+1
-    df.to_csv("tp2_1.csv", index=False)
+    df.to_csv("tp3_1.csv", index=False)
     print("Save on file tp2_1.csv")
     nbNA = 0
-    with open('tp2_1.csv', newline='') as tpfile:
+    with open('tp3_1.csv', newline='') as tpfile:
         tpReader = csv.DictReader(tpfile)
         for row in tpReader:
             if (row['pm2.5'] == 'NA'):
