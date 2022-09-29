@@ -1,7 +1,7 @@
 import csv
 import pandas
 df = pandas.read_csv("AIGLE_tp3_1.csv")
-f = open('AIGLE_tp2_2b.csv', 'w')
+f = open('AIGLE_tp2_2d.csv', 'w')
 entetes = ["pm2.5", "pm2.5_3", "pm2.5_4", "pm2.5_5"]
 ligneEntete = ",".join(entetes) + "\n"
 f.write(ligneEntete)
