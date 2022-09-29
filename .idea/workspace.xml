@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3302c04-8641-4f43-b2e3-baa702119688" name="Changes" comment="tp3 2c">
-      <change afterPath="$PROJECT_DIR$/Tp3/AIGLE_tp3_2c.arff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp3/Tp3-AIGLE.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+    <list default="true" id="b3302c04-8641-4f43-b2e3-baa702119688" name="Changes" comment="tp3 finish">
+      <change afterPath="$PROJECT_DIR$/Tp3/Tp3_d.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp3/AIGLE_tp2_2b.arff" beforeDir="false" afterPath="$PROJECT_DIR$/Tp3/AIGLE_tp2_2d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp3/AIGLE_tp2_2b.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp3/AIGLE_tp3_2c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tp3/AIGLE_tp3_2c.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp3/tp3_main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tp3/tp3_main2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tp3/tp3_main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tp3/tp3_main3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp3/Tp3-AIGLE.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Tp3/Tp3-AIGLE.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp3/tp3_main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tp3/tp3_main_d.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,29 @@
       <recent name="E:\Fouillole\M1\S1\Valorisation des données" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tp3_main2">
+  <component name="RunManager" selected="Python.Tp3_d">
+    <configuration name="Tp3_d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Valorisation des données" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tp3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tp3/Tp3_d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Valorisation des données" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,28 +117,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tp3_main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Valorisation des données" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tp3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tp3/tp3_main2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tp3_main3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Valorisation des données" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,9 +139,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tp3_main_d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Valorisation des données" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tp3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Fouillole\M1\S1\Valorisation des données\Tp3\tp3_main_d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tp3_main2" />
+        <item itemvalue="Python.Tp3_d" />
+        <item itemvalue="Python.tp3_main_d" />
         <item itemvalue="Python.tp3_main3" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
@@ -166,7 +184,7 @@
       <workItem from="1664239071867" duration="8000" />
       <workItem from="1664310309987" duration="66000" />
       <workItem from="1664310383310" duration="154000" />
-      <workItem from="1664310548658" duration="14838000" />
+      <workItem from="1664310548658" duration="16698000" />
     </task>
     <task id="LOCAL-00001" summary="partie une tp finish">
       <created>1664236955156</created>
@@ -196,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664460737576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tp3 finish">
+      <created>1664463954712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664463954712</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,11 +243,13 @@
     <MESSAGE value="Sava data in file" />
     <MESSAGE value="tp3 2b" />
     <MESSAGE value="tp3 2c" />
-    <option name="LAST_COMMIT_MESSAGE" value="tp3 2c" />
+    <MESSAGE value="tp3 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp3 finish" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Valorisation_des_données$tp3_main2.coverage" NAME="tp3_main2 Coverage Results" MODIFIED="1664463218490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tp3" />
     <SUITE FILE_PATH="coverage/Valorisation_des_données$test.coverage" NAME="test Coverage Results" MODIFIED="1664237919570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Valorisation_des_données$Tp3_d.coverage" NAME="Tp3_d Coverage Results" MODIFIED="1664465787931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tp3" />
     <SUITE FILE_PATH="coverage/Valorisation_des_données$main.coverage" NAME="main Coverage Results" MODIFIED="1664310672631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tp3" />
     <SUITE FILE_PATH="coverage/Valorisation_des_données$tp3_main3.coverage" NAME="tp3_main3 Coverage Results" MODIFIED="1664463201085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tp3" />
   </component>
