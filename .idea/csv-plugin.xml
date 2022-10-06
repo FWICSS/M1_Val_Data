@@ -10,13 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\Tp3\AIGLE_tp2_2b.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\Tp3\AIGLE_tp2_2d.csv">
           <value>
             <Attribute>
@@ -38,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Tp3\DonnéePRSA.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Tp3\test.csv">
           <value>
             <Attribute>
@@ -46,6 +46,48 @@
           </value>
         </entry>
         <entry key="\Tp3\tp3_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Tp4\AIGLE_TP4_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Tp4\AIGLE_TP4_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Tp4\AIGLE_tp4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Tp4\LondonAir_Ozone.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Tp4\Save.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Tp4\Site.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
